@@ -19,7 +19,7 @@ export class Vehiculo{
         <p>Año de Fabricación: ${this.#anoFabricacion}</p>
         <p>Cilindrada: ${this.#cilindrada}</p>
         `;
-        mostrarResultado(msg);  
+        mostrarResultado (`${msg}`);
     }
 
     acelerar(velocidad){
