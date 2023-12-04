@@ -28,7 +28,8 @@ const vehiculoObject = {
 }
 
 localStorage.setItem("vehiculo", JSON.stringify(vehiculoObject));
-console.log(localStorage.getItem("vehiculo"))
+console.log(JSON.parse(localStorage.getItem("vehiculo")));
+
 
 const deportivo1 = new AutomovilDeportivo("Ferrari", "Spider", "amarillo", 2020, "4000cc", 500);
 mostrarResultado("Deportivo")
@@ -47,10 +48,10 @@ const deportivoObject = {
 }
 
 localStorage.setItem("deportivo", JSON.stringify(deportivoObject));
-console.log(localStorage.getItem("deportivo"))
+console.log(JSON.parse(localStorage.getItem("deportivo")))
 
-localStorage.removeItem(deportivo1.marca)
-localStorage.removeItem(deportivo1.color)
+localStorage.removeItem("marca")
+localStorage.removeItem("color")
 
 
 //localStorage.clear()
