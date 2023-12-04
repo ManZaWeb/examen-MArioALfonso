@@ -1,5 +1,21 @@
+@font-face {
+    font-family: 'Montse';
+    src: url(/assets/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
 body{
+    font-family: 'Montse';
     background-image: url(/assets/imgs/pexels-pixabay-355770.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
+
+/*sombreado*/
+
+
+/*degradado*/
+
+/*keyframe*/
+
+/*pseudoselector*/
