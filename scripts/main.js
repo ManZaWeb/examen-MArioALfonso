@@ -63,4 +63,4 @@ localStorage.removeItem("marca")
 localStorage.removeItem("color")
 
 
-//localStorage.clear()
+localStorage.clear()
