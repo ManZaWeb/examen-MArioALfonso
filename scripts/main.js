@@ -30,10 +30,12 @@ const vehiculoObject = {
     color: vehiculo1.color,
     AnoFabricacion: vehiculo1.AnoFabricacion,
     cilindrada: vehiculo1.cilindrada
+
 }
 
 localStorage.setItem("vehiculo", JSON.stringify(vehiculoObject));
 console.log(JSON.parse(localStorage.getItem("vehiculo")));
+console.log(localStorage.getItem("vehiculo"));
 
 
 
