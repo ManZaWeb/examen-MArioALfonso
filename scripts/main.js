@@ -13,7 +13,7 @@ export function mostrarResultado(text){
 
 const vehiculo1 = new Vehiculo("BMW", "CLK", "Rojo", 1992, "2400cc");
 
-mostrarResultado('Vehiculo')
+mostrarResultado('<h2>Vehiculo</h2>')
 vehiculo1.mostrarDatos();
 vehiculo1.arrancar();
 vehiculo1.acelerar(140);
@@ -31,8 +31,10 @@ localStorage.setItem("vehiculo", JSON.stringify(vehiculoObject));
 console.log(JSON.parse(localStorage.getItem("vehiculo")));
 
 
+
+
 const deportivo1 = new AutomovilDeportivo("Ferrari", "Spider", "amarillo", 2020, "4000cc", 500);
-mostrarResultado("Deportivo")
+mostrarResultado('<h2>Deportivo</h2>')
 deportivo1.mostrarDatos();
 deportivo1.arrancar();
 deportivo1.acelerar(140);
