@@ -1,3 +1,8 @@
+/**
+ * Autor: Mario Alfonso Nuñez
+ * GitHub: https://github.com/ManZaWeb/examen-MArioALfonso.git
+ */
+
 import { Vehiculo } from "./vehiculo.js";
 import { AutomovilDeportivo } from "./automovilDeportivo.js";
 
