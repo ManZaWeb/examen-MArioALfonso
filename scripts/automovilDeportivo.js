@@ -15,7 +15,7 @@ activarModoDeportivo(){
         mostrarResultado(text)
 }
 
-getPotenciaMotor(){
+get PotenciaMotor(){
     return this.#potenciaMotor;
 }
 

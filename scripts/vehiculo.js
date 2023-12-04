@@ -39,35 +39,35 @@ export class Vehiculo{
 
     }
 
-    getMarca(){
+    get Marca(){
         return this.#marca;
     }
 
-    setMarca(x){
+    set Marca(x){
         this.#marca = x;
     }
 
-    getModelo(){
+    get Modelo(){
         return this.#modelo;
     }
 
-    setModelo(x){
+    set Modelo(x){
         this.#modelo = x;
     }
 
-    getAñoFabricacion(){
+    get AñoFabricacion(){
         return this.#anoFabricacion;
     }
 
-    setAñoFabricacion(x){
+    set AñoFabricacion(x){
         this.#anoFabricacion = x;
     }
 
-    getCilindrada(){
+    get Cilindrada(){
         return this.#cilindrada;
     }
 
-    setCilindrada(x){
+    set Cilindrada(x){
         this.#cilindrada = x;
     }
 }
