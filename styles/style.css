@@ -14,7 +14,12 @@ div{
     color: red;
     padding: auto;
     display: block;
-    margin: 0 auto;   
+    width: 15rem;
+    width: 20rem;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+       
 }
 
 @keyframes moving {
@@ -23,6 +28,7 @@ div{
 
 h1{
     animation: moving 5s infinite;
+    text-shadow: 3px 3px 2px rgba(128, 0, 0, 1);
 }
 
 /*sombreado*/
