@@ -11,31 +11,45 @@ body{
     background-size: cover;
 }
 div{
+    text-align: center;
     color: red;
-    padding: auto;
-    display: block;
-    width: 15rem;
-    width: 20rem;
-    background-color: #D9AFD9;
-    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
-
-       
+    margin: 0 auto;
+    width: 30rem;
+    background: #1D976C;
+    background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  
+    background: linear-gradient(to right, #93F9B9, #1D976C);        
 }
 
-@keyframes moving {
-    
-}
 
 h1{
+    text-align: center;
     animation: moving 5s infinite;
     text-shadow: 3px 3px 2px rgba(128, 0, 0, 1);
+    animation: wiggle 2s linear infinite;
 }
 
-/*sombreado*/
-
-
-/*degradado*/
-
-
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
 
 /*pseudoselector*/
